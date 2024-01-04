@@ -1,0 +1,233 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Furniture",
+      "description": "Find stylish and functional pieces for every room in your home.",
+      "products": [
+        {
+          "id": 101,
+          "title": "The Oakwood Desk",
+          "description": "Solid oak construction meets modern design in this spacious and stylish desk, perfect for your home office.",
+          "features": [
+            {
+              "title": "Adjustable Shelves",
+              "description": "Customize your storage to fit your needs with adjustable shelves."
+            },
+            {
+              "title": "Spacious Work Surface",
+              "description": "Plenty of space for your computer, paperwork, and more."
+            },
+            {
+              "title": "Easy Assembly",
+              "description": "Quick and simple assembly, so you can start using your desk in no time."
+            },
+            {
+              "title": "Durable Construction",
+              "description": "Built to last with high-quality materials and craftsmanship."
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "title": "Ergonomic Office Chair",
+          "description": "Experience all-day comfort and support with this adjustable chair featuring breathable mesh and lumbar support.",
+          "features": [
+            {
+              "title": "Adjustable Armrests",
+              "description": "Customize the armrests to achieve the perfect position for your arms."
+            },
+            {
+              "title": "Breathable Mesh",
+              "description": "Stay cool and comfortable with breathable mesh material."
+            },
+            {
+              "title": "Lumbar Support",
+              "description": "Support your lower back and promote good posture with built-in lumbar support."
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "title": "Modern Coffee Table",
+          "description": "Add a touch of elegance to your living room with this sleek and functional coffee table.",
+          "features": [
+            {
+              "title": "Sleek Design",
+              "description": "Enhance your living space with a modern and stylish coffee table."
+            },
+            {
+              "title": "Ample Storage",
+              "description": "Store books, magazines, and more in the spacious storage compartments."
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "Adjustable Standing Desk",
+          "description": "Stay active and productive with this height-adjustable desk, perfect for a healthier workday.",
+          "features": [
+            {
+              "title": "Electric Height Adjustment",
+              "description": "Easily switch between sitting and standing with electric height adjustment."
+            },
+            {
+              "title": "Spacious Work Surface",
+              "description": "Plenty of space for your monitors, keyboard, and other work essentials."
+            },
+            {
+              "title": "Programmable Memory Settings",
+              "description": "Save your preferred heights for quick and convenient adjustments."
+            },
+            {
+              "title": "Sturdy Construction",
+              "description": "Built to withstand daily use and support your work setup."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Electronics",
+      "description": "Discover the latest in cutting-edge technology for your home and personal use.",
+      "products": [
+        {
+          "id": 201,
+          "title": "Smart LED TV",
+          "description": "Experience stunning visuals and smart features with this high-definition LED TV.",
+          "features": [
+            {
+              "title": "4K Ultra HD",
+              "description": "Enjoy lifelike picture quality with stunning clarity and detail."
+            },
+            {
+              "title": "Smart TV Functionality",
+              "description": "Access streaming services, apps, and more with built-in smart features."
+            },
+            {
+              "title": "Multiple HDMI Ports",
+              "description": "Connect your favorite devices for a complete entertainment setup."
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "title": "Wireless Bluetooth Headphones",
+          "description": "Listen to your favorite music and podcasts with freedom and convenience.",
+          "features": [
+            {
+              "title": "Noise Cancellation",
+              "description": "Block out external noise for an immersive audio experience."
+            },
+            {
+              "title": "Long Battery Life",
+              "description": "Enjoy extended listening sessions with long-lasting battery performance."
+            },
+            {
+              "title": "Comfortable Fit",
+              "description": "Ergonomically designed for long-term comfort during extended use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Clothing",
+      "description": "Discover fashionable and comfortable apparel for every occasion.",
+      "products": [
+        {
+          "id": 301,
+          "title": "Men's Casual Shirt",
+          "description": "Look stylish and feel comfortable with this versatile casual shirt.",
+          "features": [
+            {
+              "title": "Breathable Fabric",
+              "description": "Stay cool and comfortable in any season with breathable fabric."
+            },
+            {
+              "title": "Classic Design",
+              "description": "A timeless and versatile design suitable for various casual occasions."
+            }
+          ]
+        },
+        {
+          "id": 302,
+          "title": "Women's Yoga Pants",
+          "description": "Stay flexible and comfortable during workouts with these high-quality yoga pants.",
+          "features": [
+            {
+              "title": "Moisture-Wicking",
+              "description": "Stay dry and comfortable during intense workouts with moisture-wicking fabric."
+            },
+            {
+              "title": "Four-Way Stretch",
+              "description": "Enhance flexibility and movement with four-way stretch material."
+            },
+            {
+              "title": "High Waistband",
+              "description": "Provides support and coverage for a comfortable and confident workout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kitchenware",
+      "description": "Find high-quality and functional tools and utensils for your kitchen.",
+      "products": [
+        {
+          "id": 401,
+          "title": "Non-Stick Cookware Set",
+          "description": "Upgrade your cooking experience with this durable and versatile cookware set.",
+          "features": [
+            {
+              "title": "Non-Stick Coating",
+              "description": "Cook with ease and clean up quickly with non-stick surfaces."
+            },
+            {
+              "title": "Even Heat Distribution",
+              "description": "Achieve consistent cooking results with even heat distribution."
+            },
+            {
+              "title": "Dishwasher Safe",
+              "description": "Convenient and easy cleanup with dishwasher-safe compatibility."
+            }
+          ]
+        },
+        {
+          "id": 402,
+          "title": "Chef's Knife Set",
+          "description": "Equip your kitchen with high-quality knives for precise and efficient food preparation.",
+          "features": [
+            {
+              "title": "Sharp and Durable Blades",
+              "description": "Effortlessly cut through ingredients with sharp and durable knife blades."
+            },
+            {
+              "title": "Ergonomic Handles",
+              "description": "Comfortable and secure grip for safe and effective cutting."
+            }
+          ]
+        },
+        {
+          "id": 403,
+          "title": "Stainless Steel Mixing Bowls",
+          "description": "Prepare and store ingredients with these durable and versatile stainless steel mixing bowls.",
+          "features": [
+            {
+              "title": "Multiple Sizes",
+              "description": "Choose the right size for your cooking and baking needs with multiple bowl sizes."
+            },
+            {
+              "title": "Easy Storage",
+              "description": "Nesting design for compact and convenient storage when not in use."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
