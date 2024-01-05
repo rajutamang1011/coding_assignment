@@ -4,5 +4,4 @@
 4. after finshing the overall design and data flow, finally moved towards the modal section
 5. Atlast sync up with the remote(github) megerd branch and deploy the project as a live site for demo purpose
 
-
 Project Live Site Link :- https://rajutamang1011.github.io/coding_assignment/
