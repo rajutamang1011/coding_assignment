@@ -8,11 +8,15 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+html,
+body {
+  @apply bg-slate-200;
+}
 
 @layer components {
   .container {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1350px;
     padding: 0 15px;
   }
 }

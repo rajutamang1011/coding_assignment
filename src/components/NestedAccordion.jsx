@@ -1,21 +1,36 @@
 import { useState } from 'react'
+import { FaMinus, FaPlus } from 'react-icons/fa'
+import Accordion from './Accordion'
+import ProductBox from './ProductBox'
 
-const NestedAccordion = ({ categoriesData }) => {
+const NestedAccordion = ({ categoriesData, icons, openModal }) => {
+  const [openAccordionItem, setOpenAccordionItem] = useState(
+    categoriesData.categories[0].title || null
+  )
+
   // Reusable AccordionItem component with accessibility considerations
-  function AccordionItem({ title, children }) {
-    const [isOpen, setIsOpen] = useState(false)
+  function AccordionItem({ icon, title, children }) {
+    const isOpen = openAccordionItem === title
 
-    const toggle = () => setIsOpen(!isOpen)
+    const toggle = () => {
+      setOpenAccordionItem(isOpen ? null : title)
+    }
 
     return (
-      <div className="accordion-item" role="region">
+      <div className="accordion-item mb-4" role="region">
         <div
-          className="accordion-header"
+          className="accordion-header bg-white p-4 rounded-2xl flex justify-between"
           onClick={toggle}
           aria-expanded={isOpen}
           aria-controls={`accordion-content-${title}`}
         >
-          <h3>{title}</h3>
+          <div className="heading flex">
+            <div className="icon flex justify-center flex-col mr-4">{icon}</div>
+            <h3 className="font-semibold text-lg">{title}</h3>
+          </div>
+          <div className="iconBox flex justify-center flex-col">
+            {isOpen ? <FaMinus /> : <FaPlus />}
+          </div>
         </div>
         <div
           className="accordion-content"
@@ -31,19 +46,34 @@ const NestedAccordion = ({ categoriesData }) => {
 
   return (
     <div className="accordion">
-      {categoriesData.categories.map((item) => (
-        <AccordionItem key={item.id} title={item.title}>
-          {
+      {categoriesData.categories.map((item) => {
+        const categoryIcon =
+          icons.find((icon) => icon.id === item.id)?.icon || null
+        const categoryWithIcon = { ...item, icon: categoryIcon }
+
+        return (
+          <AccordionItem
+            key={categoryWithIcon.id}
+            title={categoryWithIcon.title}
+            icon={categoryWithIcon.icon}
+          >
             <>
-              {item.products.map((child) => (
-                <AccordionItem key={child.id} title={child.title}>
-                  {child.description}
-                </AccordionItem>
+              {categoryWithIcon.product.map((child) => (
+                <ProductBox
+                  key={child.id}
+                  title={child.title}
+                  description={child.description}
+                  openModal={openModal}
+                >
+                  {child.features.map((feature, index) => (
+                    <Accordion key={index} {...feature} />
+                  ))}
+                </ProductBox>
               ))}
             </>
-          }
-        </AccordionItem>
-      ))}
+          </AccordionItem>
+        )
+      })}
     </div>
   )
 }
