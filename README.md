@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. At first, I just see the possible data flow of the components and create a simple JSON file that fits for the assignment.
+2. Now setting up the project , implement the tab and accordion funcationality 
+3. new brach create at local and start working on the data passing (props) and styling the components
+4. after finshing the overall design and data flow, finally moved towards the modal section
+5. Atlast sync up with the remote(github) and deploy the project as a live site for demo purpose
