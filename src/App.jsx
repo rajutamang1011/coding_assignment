@@ -9,7 +9,7 @@ import productsData from './data/productsData.json'
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768) // Adjust breakpoint
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [dataModal, setDataModal] = useState(null)
+  const [dataModal, setDataModal] = useState(null) // modal data
 
   const openModal = (title, description) => {
     setIsModalOpen(true)

@@ -11,13 +11,13 @@ const Modal = ({ isOpen, onClose, children, title, description }) => {
   useEffect(() => {
     setModalOpen(isOpen)
 
-    // // Add this to disable body scrolling when the cart is open:
-    // if (isOpen) {
-    //   document.body.style.overflow = 'hidden'
-    // } else {
-    //   // Reset the overflow to enable scrolling again
-    //   document.body.style.overflow = 'auto'
-    // }
+    // Add this to disable body scrolling when the cart is open:
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      // Reset the overflow to enable scrolling again
+      document.body.style.overflow = 'auto'
+    }
   }, [isOpen])
 
   return (
